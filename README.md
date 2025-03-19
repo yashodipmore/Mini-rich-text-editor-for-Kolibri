@@ -18,13 +18,13 @@ A **fully responsive** and **feature-rich** Rich Text Editor built using modern 
 ## 📸 Screenshots
 
 ### **Editor in Action**
-![Editor UI](screenshots/editor-ui.png)
+![Editor UI](Screenshots/1.png)
 
 ### **Basic Formatting (Bold, Italic, Underline)**
-![Formatting](screenshots/formatting.png)
+![Formatting](Screenshots/bold.png)
 
 ### **Lists (Ordered and Unordered)**
-![Lists](screenshots/lists.png)
+![Lists](Screenshots/listing.png)
 
 ### **Headings Support**
 ![Headings](screenshots/headings.png)
@@ -33,7 +33,7 @@ A **fully responsive** and **feature-rich** Rich Text Editor built using modern 
 ![Links](screenshots/links.png)
 
 ### **HTML Input/Output Support**
-![HTML Support](screenshots/html-support.png)
+![HTML Support](Screenshots/op.png)
 
 ### **Customizable Toolbar**
 ![Toolbar](screenshots/toolbar.png)
