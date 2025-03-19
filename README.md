@@ -1,16 +1,15 @@
 # Rich Text Editor
 
-A **fully responsive** and **feature-rich** Rich Text Editor built using modern web technologies. This editor provides users with the ability to format text, add images, and apply various styling options, making it ideal for blogging, note-taking, and web content management.
+A **fully responsive** and **feature-rich** Rich Text Editor built using modern web technologies.** This editor provides users with the ability to format text, add images, and apply various styling options, making it ideal for blogging, note-taking, and web content management.
 
 ## 🌟 Features
 
-✔ **Bold, Italic, Underline, and Strikethrough formatting**  
+✔ **Bold, Italic, and Underline formatting**  
 ✔ **Headings and Paragraph Styling**  
 ✔ **Ordered and Unordered Lists**  
-✔ **Blockquote and Code Blocks**  
-✔ **Image and Link Insertion**  
-✔ **Undo/Redo functionality**  
-✔ **Dark Mode Support**  
+✔ **Link Insertion**  
+✔ **HTML Input/Output Support**  
+✔ **Customizable Toolbar**  
 ✔ **Fully Responsive for Desktop, Tablet, and Mobile**  
 ✔ **Keyboard Shortcuts for Quick Editing**  
 
@@ -19,19 +18,25 @@ A **fully responsive** and **feature-rich** Rich Text Editor built using modern 
 ## 📸 Screenshots
 
 ### **Editor in Action**
-```md
 ![Editor UI](screenshots/editor-ui.png)
-```
 
-### **Dark Mode Support**
-```md
-![Dark Mode](screenshots/dark-mode.png)
-```
+### **Basic Formatting (Bold, Italic, Underline)**
+![Formatting](screenshots/formatting.png)
 
-### **Mobile Responsive Layout**
-```md
-![Mobile View](screenshots/mobile-view.png)
-```
+### **Lists (Ordered and Unordered)**
+![Lists](screenshots/lists.png)
+
+### **Headings Support**
+![Headings](screenshots/headings.png)
+
+### **Link Insertion**
+![Links](screenshots/links.png)
+
+### **HTML Input/Output Support**
+![HTML Support](screenshots/html-support.png)
+
+### **Customizable Toolbar**
+![Toolbar](screenshots/toolbar.png)
 
 ---
 
@@ -58,14 +63,48 @@ The project should now be running at `http://localhost:3000`.
 
 ---
 
+## 🚀 Integration with Kolibri
+
+To integrate this Rich Text Editor with **Kolibri**, follow these steps:
+
+1. **Clone the Kolibri Source Code:**
+   ```sh
+   git clone https://github.com/learningequality/kolibri.git
+   cd kolibri
+   ```
+2. **Navigate to the Frontend Directory:**
+   ```sh
+   cd kolibri/core/assets
+   ```
+3. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Integrate the Editor:**
+   - Copy the `rich-text-editor` folder into `kolibri/core/assets`.
+   - Import the editor component in the Kolibri editor section.
+   - Modify `editor.js` to include the new text editor.
+   ```js
+   import RichTextEditor from './rich-text-editor';
+   ```
+   - Use `<RichTextEditor />` inside the necessary Kolibri component.
+5. **Rebuild and Start Kolibri:**
+   ```sh
+   npm run build
+   npm start
+   ```
+6. **Test Integration:**
+   - Navigate to the Kolibri text editor section and verify that the **Rich Text Editor** is properly embedded.
+
+---
+
 ## 🚀 Usage Guide
 
 1. **Type your text** in the editor.
 2. Use the **toolbar** to apply formatting (Bold, Italic, etc.).
-3. Click **Insert Image** to add images from a URL.
+3. Click **Insert Link** to add hyperlinks.
 4. Use **Lists** to organize content better.
-5. Toggle **Dark Mode** for better readability.
-6. Copy or download the formatted text easily.
+5. Copy or download the formatted text easily.
 
 ---
 
@@ -96,8 +135,6 @@ This project is licensed under the **MIT License**.
 ## 🔗 Connect with Me
 For any queries, suggestions, or contributions, feel free to reach out!
 
-```md
 📧 Email: yashodipmore2004@gmail.com  
 🔗 LinkedIn: [Yashodip More](https://linkedin.com/in/YOUR_PROFILE)  
 🚀 GitHub: [@yashodipmore](https://github.com/YOUR_GITHUB_USERNAME)
-```
